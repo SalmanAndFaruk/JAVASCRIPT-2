@@ -29,8 +29,26 @@
 //getUserNamePassword(userName, userPassword);
 
 
-(function show(num1,num2){
+//(function show(num1,num2){
 
-    document.write ("br/>IFEs Immediately Invokable Function Expression "+ num1 + "<br>" + num2);
+   // document.write ("br/>IFEs Immediately Invokable Function Expression "+ num1 + "<br>" + num2);
 
-})(12,45);
+//})(12,45);
+
+
+
+var names = ["John","David","Shuhan","Tom"];
+//document.write(names+"<br>");
+
+//document.write(names[o] + "<br>");
+//document.write(names[1] + "<br>");
+//document.write(names[2] + "<br>");
+//document.write(names[3] + "<br>");
+
+for(var i = 0;i<names.length;i++)
+document.write(names[i] + "<br>");
+
+
+
+
+
