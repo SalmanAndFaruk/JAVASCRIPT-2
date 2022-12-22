@@ -18,11 +18,19 @@
 //square_p(16);
 //square_p(25);
 //square_p(10);
-const userName = prompt("Write user name");
-const userPassword = prompt("write user password");
+//let  userName = prompt("Enter your username");
+//let  userPassword = prompt("Enter your password");
 
-function view (userName, userPassword){
-    document.write("Write user name " + userName + "<br>" + "Write user password"+ userPassword);
-}
-view (userName, userPassword);
+//function getUserNamePassword(a, b){
+    //document.write("Your username: " + a + "<br>");
+   // document.write("Your password: "+ b);
+//}
 
+//getUserNamePassword(userName, userPassword);
+
+
+(function show(num1,num2){
+
+    document.write ("br/>IFEs Immediately Invokable Function Expression "+ num1 + "<br>" + num2);
+
+})(12,45);
