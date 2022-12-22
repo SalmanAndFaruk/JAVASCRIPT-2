@@ -45,8 +45,17 @@ var names = ["John","David","Shuhan","Tom"];
 //document.write(names[2] + "<br>");
 //document.write(names[3] + "<br>");
 
-for(var i = 0;i<names.length;i++)
-document.write(names[i] + "<br>");
+//for(var i = 0;i<names.length;i++)
+//document.write(names[i] + "<br>");
+
+
+var myList = new Array (5);
+for(var i = 0;i<4;i++)
+myList[i] = prompt("Enter" + i + "index number");
+
+for(var i = 0;i<myList.length;i++)
+document.write(myList[i] + "<br>");
+
 
 
 
